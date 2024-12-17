@@ -1,0 +1,787 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:7057fcbb-705b-477a-b154-1fc3551e1b14#"
+     xml:base="urn:webprotege:ontology:7057fcbb-705b-477a-b154-1fc3551e1b14"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rem="http://rem.dra.cn.ard.de/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:7057fcbb-705b-477a-b154-1fc3551e1b14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cname -->
+
+    <owl:AnnotationProperty rdf:about="http://rem.dra.cn.ard.de/cname">
+        <rdfs:label>cname</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/ename -->
+
+    <owl:AnnotationProperty rdf:about="http://rem.dra.cn.ard.de/ename">
+        <rdfs:label>ename</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/uuid -->
+
+    <owl:AnnotationProperty rdf:about="http://rem.dra.cn.ard.de/uuid">
+        <rdfs:label>uuid</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838"/>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/b7e156ef-f87a-43f0-aa77-7b2b52d5c52b -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/b7e156ef-f87a-43f0-aa77-7b2b52d5c52b">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/bffca65d-6d4e-440f-8d68-25a67b46dbb4 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/bffca65d-6d4e-440f-8d68-25a67b46dbb4">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5"/>
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+        <rem:cname xml:lang="en">Class.Type</rem:cname>
+        <rem:cname xml:lang="de">Klasse.Typ</rem:cname>
+        <rem:ename xml:lang="en">((Concept.Type).Type)-2</rem:ename>
+        <rem:uuid>bffca65d-6d4e-440f-8d68-25a67b46dbb4</rem:uuid>
+        <rdfs:label xml:lang="en">Class_Type</rdfs:label>
+        <rdfs:label xml:lang="de">Klasse_Typ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/c4d37f1d-67d1-4751-94f7-8a826c16a2ab -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/c4d37f1d-67d1-4751-94f7-8a826c16a2ab">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/bffca65d-6d4e-440f-8d68-25a67b46dbb4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cab019a2-4702-4148-9609-8cc210de8479 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/cab019a2-4702-4148-9609-8cc210de8479">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cd6c2de1-8303-4038-9b13-c16453a61d2d -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/cd6c2de1-8303-4038-9b13-c16453a61d2d">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/ce227dcc-96cf-4214-a39a-3fe413fcbd69 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/ce227dcc-96cf-4214-a39a-3fe413fcbd69">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cea7d101-24c6-4483-a5ee-52ecffc4c563 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/cea7d101-24c6-4483-a5ee-52ecffc4c563">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/bffca65d-6d4e-440f-8d68-25a67b46dbb4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/853a6fe5-b7b1-4830-96ee-69a1610b4be5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/f290ec21-db93-4753-be31-51f947d7d822 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/f290ec21-db93-4753-be31-51f947d7d822">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6"/>
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/fbf0c30f-f71a-4078-a896-497d1571a8f1 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/fbf0c30f-f71a-4078-a896-497d1571a8f1">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/0b676c2a-9d76-4250-adb0-b569f4184e75 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/0b676c2a-9d76-4250-adb0-b569f4184e75">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/bffca65d-6d4e-440f-8d68-25a67b46dbb4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/26dca802-f7ec-4830-a917-2effe8702f69 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/26dca802-f7ec-4830-a917-2effe8702f69">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/551f64b3-bc46-4a96-9110-42f4858efc54"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/4b5f335b-3848-44dc-b338-2192332c25aa -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/4b5f335b-3848-44dc-b338-2192332c25aa">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/47776a7e-c17f-43b0-b2a8-baa6b8e0e905 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/47776a7e-c17f-43b0-b2a8-baa6b8e0e905">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/4909fd27-04c6-4e43-ab23-999d299e4103 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/4909fd27-04c6-4e43-ab23-999d299e4103">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/cd6c2de1-8303-4038-9b13-c16453a61d2d"/>
+        <rem:cname xml:lang="de">Entitaet.Typ</rem:cname>
+        <rem:cname xml:lang="en">Entity.Type</rem:cname>
+        <rem:ename xml:lang="en">(Type.Type)-1</rem:ename>
+        <rem:uuid>4909fd27-04c6-4e43-ab23-999d299e4103</rem:uuid>
+        <rdfs:label xml:lang="de">Entitaet_Typ</rdfs:label>
+        <rdfs:label xml:lang="en">Entity_Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/551f64b3-bc46-4a96-9110-42f4858efc54 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/551f64b3-bc46-4a96-9110-42f4858efc54">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/9d1fce3f-d6a8-4917-ae57-d347c0cf750c"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/7f7799f9-3fe8-4d06-9d90-08d5715ec64f -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/7f7799f9-3fe8-4d06-9d90-08d5715ec64f">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/bffca65d-6d4e-440f-8d68-25a67b46dbb4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/734b6de4-f015-475b-bea7-b49563a14471">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/4909fd27-04c6-4e43-ab23-999d299e4103"/>
+        <rem:cname xml:lang="en">Concept.Type</rem:cname>
+        <rem:cname xml:lang="de">Konzept.Typ</rem:cname>
+        <rem:ename xml:lang="en">((Entity.Type).Type)-1</rem:ename>
+        <rem:uuid>734b6de4-f015-475b-bea7-b49563a14471</rem:uuid>
+        <rdfs:label xml:lang="en">Concept_Type</rdfs:label>
+        <rdfs:label xml:lang="de">Konzept_Typ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/853a6fe5-b7b1-4830-96ee-69a1610b4be5 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/853a6fe5-b7b1-4830-96ee-69a1610b4be5">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/9d1fce3f-d6a8-4917-ae57-d347c0cf750c -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/9d1fce3f-d6a8-4917-ae57-d347c0cf750c">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/958110cd-1fec-4c77-a559-f05559b0459e -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/958110cd-1fec-4c77-a559-f05559b0459e">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/4909fd27-04c6-4e43-ab23-999d299e4103"/>
+        <rem:cname xml:lang="en">Percept.Type</rem:cname>
+        <rem:cname xml:lang="de">Perzept.Typ</rem:cname>
+        <rem:ename rdf:datatype="http://www.w3.org/2001/XMLSchema#string">((Entity.Type).Type)-2</rem:ename>
+        <rem:uuid>958110cd-1fec-4c77-a559-f05559b0459e</rem:uuid>
+        <rdfs:label xml:lang="en">Percept_Type</rdfs:label>
+        <rdfs:label xml:lang="de">Perzept_Typ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/969fb8fc-1ca1-458b-bbc7-390382193a06 -->
+
+    <owl:Class rdf:about="http://rem.dra.cn.ard.de/969fb8fc-1ca1-458b-bbc7-390382193a06">
+        <rdfs:subClassOf rdf:resource="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838"/>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/cea7d101-24c6-4483-a5ee-52ecffc4c563"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/b7e156ef-f87a-43f0-aa77-7b2b52d5c52b -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/b7e156ef-f87a-43f0-aa77-7b2b52d5c52b">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/c4d37f1d-67d1-4751-94f7-8a826c16a2ab -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/c4d37f1d-67d1-4751-94f7-8a826c16a2ab">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cab019a2-4702-4148-9609-8cc210de8479 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/cab019a2-4702-4148-9609-8cc210de8479">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cd6c2de1-8303-4038-9b13-c16453a61d2d -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/cd6c2de1-8303-4038-9b13-c16453a61d2d">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/ce227dcc-96cf-4214-a39a-3fe413fcbd69 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/ce227dcc-96cf-4214-a39a-3fe413fcbd69">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/cea7d101-24c6-4483-a5ee-52ecffc4c563 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/cea7d101-24c6-4483-a5ee-52ecffc4c563">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/47776a7e-c17f-43b0-b2a8-baa6b8e0e905"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/f290ec21-db93-4753-be31-51f947d7d822 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/f290ec21-db93-4753-be31-51f947d7d822">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/fbf0c30f-f71a-4078-a896-497d1571a8f1 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/fbf0c30f-f71a-4078-a896-497d1571a8f1">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/7f7799f9-3fe8-4d06-9d90-08d5715ec64f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/0b676c2a-9d76-4250-adb0-b569f4184e75 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/0b676c2a-9d76-4250-adb0-b569f4184e75">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/26dca802-f7ec-4830-a917-2effe8702f69 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/26dca802-f7ec-4830-a917-2effe8702f69">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/c4d37f1d-67d1-4751-94f7-8a826c16a2ab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/4b5f335b-3848-44dc-b338-2192332c25aa -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/4b5f335b-3848-44dc-b338-2192332c25aa">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/47776a7e-c17f-43b0-b2a8-baa6b8e0e905 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/47776a7e-c17f-43b0-b2a8-baa6b8e0e905">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/551f64b3-bc46-4a96-9110-42f4858efc54 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/551f64b3-bc46-4a96-9110-42f4858efc54">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/ce227dcc-96cf-4214-a39a-3fe413fcbd69"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/7f7799f9-3fe8-4d06-9d90-08d5715ec64f -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/7f7799f9-3fe8-4d06-9d90-08d5715ec64f">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/853a6fe5-b7b1-4830-96ee-69a1610b4be5 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/853a6fe5-b7b1-4830-96ee-69a1610b4be5">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/9d1fce3f-d6a8-4917-ae57-d347c0cf750c -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/9d1fce3f-d6a8-4917-ae57-d347c0cf750c">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/0b676c2a-9d76-4250-adb0-b569f4184e75"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rem.dra.cn.ard.de/969fb8fc-1ca1-458b-bbc7-390382193a06 -->
+
+    <owl:NamedIndividual rdf:about="http://rem.dra.cn.ard.de/969fb8fc-1ca1-458b-bbc7-390382193a06">
+        <rdf:type rdf:resource="http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/a175b385-ef47-49b3-93cf-60b45f85c94c">
+        <rem:cname xml:lang="en">Mode</rem:cname>
+        <rdfs:label xml:lang="en">Mode</rdfs:label>
+        <rem:uuid>a175b385-ef47-49b3-93cf-60b45f85c94c</rem:uuid>
+        <rem:ename xml:lang="en">Entity.Type/1</rem:ename>
+        <rem:cname xml:lang="de">Modus</rem:cname>
+        <rdfs:label xml:lang="de">Modus</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/a18410d6-ca69-4da6-aa6b-14d379a52838">
+        <rem:uuid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a18410d6-ca69-4da6-aa6b-14d379a52838</rem:uuid>
+        <rem:ename xml:lang="en">(Entity.Type)-0</rem:ename>
+        <rdfs:comment xml:lang="en">Anything</rdfs:comment>
+        <rdfs:label xml:lang="en">Entity</rdfs:label>
+        <rem:cname xml:lang="de">Entitaet</rem:cname>
+        <rdfs:label xml:lang="de">Entitaet</rdfs:label>
+        <rem:cname xml:lang="en">Entity</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/a4a4b632-0bae-4432-9ff8-d94aac4635e5">
+        <rem:uuid>a4a4b632-0bae-4432-9ff8-d94aac4635e5</rem:uuid>
+        <rdfs:label xml:lang="en">Metaclass</rdfs:label>
+        <rem:cname xml:lang="en">Metaclass</rem:cname>
+        <rdfs:label xml:lang="de">Metaklasse</rdfs:label>
+        <rem:cname xml:lang="de">Metaklasse</rem:cname>
+        <rem:ename xml:lang="en">(Class.Type)-1</rem:ename>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9">
+        <rem:cname xml:lang="en">Powertype</rem:cname>
+        <rdfs:label xml:lang="de">Powertype</rdfs:label>
+        <rem:cname xml:lang="de">Powertype</rem:cname>
+        <rdfs:label xml:lang="en">Powertype</rdfs:label>
+        <rem:uuid>a7b8aa34-bbe2-4e59-af9e-4d0982ecc5d9</rem:uuid>
+        <rem:ename xml:lang="en">(Metaclass.Type)-1</rem:ename>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/b7e156ef-f87a-43f0-aa77-7b2b52d5c52b">
+        <rem:uuid>b7e156ef-f87a-43f0-aa77-7b2b52d5c52b</rem:uuid>
+        <rem:cname xml:lang="de">Relation</rem:cname>
+        <rem:ename xml:lang="en">(Class.Type)-2</rem:ename>
+        <rdfs:label xml:lang="de">Relation</rdfs:label>
+        <rem:cname xml:lang="en">Relation</rem:cname>
+        <rdfs:label xml:lang="en">Relation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/c021059a-48bb-4684-a9ce-d4e84bf489f6">
+        <rem:ename xml:lang="en">(Entity.Type)-1</rem:ename>
+        <rem:cname xml:lang="de">Perzept</rem:cname>
+        <rdfs:label xml:lang="de">Perzept</rdfs:label>
+        <rem:uuid>c021059a-48bb-4684-a9ce-d4e84bf489f6</rem:uuid>
+        <rem:cname xml:lang="en">Percept</rem:cname>
+        <rdfs:label xml:lang="en">Percept</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/c4d37f1d-67d1-4751-94f7-8a826c16a2ab">
+        <rem:ename xml:lang="en">Tuple.Type/1</rem:ename>
+        <rdfs:label xml:lang="en">Tuple_Type1</rdfs:label>
+        <rem:cname xml:lang="en">Tuple.Type/1</rem:cname>
+        <rdfs:label xml:lang="de">Tupel_Typ1</rdfs:label>
+        <rem:uuid>c4d37f1d-67d1-4751-94f7-8a826c16a2ab</rem:uuid>
+        <rem:cname xml:lang="de">Tupel.Typ/1</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/cab019a2-4702-4148-9609-8cc210de8479">
+        <rdfs:label xml:lang="de">Ding</rdfs:label>
+        <rem:cname xml:lang="de">Ding</rem:cname>
+        <rem:ename xml:lang="en">(Percept.Type)-1</rem:ename>
+        <rem:uuid>cab019a2-4702-4148-9609-8cc210de8479</rem:uuid>
+        <rdfs:label xml:lang="en">Thing</rdfs:label>
+        <rem:cname xml:lang="en">Thing</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/cd6c2de1-8303-4038-9b13-c16453a61d2d">
+        <rem:cname xml:lang="en">Type</rem:cname>
+        <rem:uuid>cd6c2de1-8303-4038-9b13-c16453a61d2d</rem:uuid>
+        <rem:ename xml:lang="en">(Class.Type)-4</rem:ename>
+        <rdfs:label xml:lang="de">Typ</rdfs:label>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+        <rem:cname xml:lang="de">Typ</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/ce227dcc-96cf-4214-a39a-3fe413fcbd69">
+        <rem:cname xml:lang="en">Attribute.Type/1</rem:cname>
+        <rem:cname xml:lang="de">Attribut.Typ/1</rem:cname>
+        <rem:uuid>ce227dcc-96cf-4214-a39a-3fe413fcbd69</rem:uuid>
+        <rem:ename xml:lang="en">Attribute.Type/1</rem:ename>
+        <rdfs:label xml:lang="de">Attribut_Typ1</rdfs:label>
+        <rdfs:label xml:lang="en">Attribute_Type1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/cea7d101-24c6-4483-a5ee-52ecffc4c563">
+        <rem:uuid>cea7d101-24c6-4483-a5ee-52ecffc4c563</rem:uuid>
+        <rdfs:label xml:lang="de">Metaklasse_Typ1</rdfs:label>
+        <rdfs:label xml:lang="en">Metaclass_Type1</rdfs:label>
+        <rem:cname xml:lang="en">Metaclass.Type/1</rem:cname>
+        <rem:ename xml:lang="en">Metaclass.Type/1</rem:ename>
+        <rem:cname xml:lang="de">Metaklasse.Typ/1</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/d833f609-7c38-49ab-8edf-93a070baddf5">
+        <rem:cname xml:lang="en">Class</rem:cname>
+        <rem:uuid>d833f609-7c38-49ab-8edf-93a070baddf5</rem:uuid>
+        <rdfs:label xml:lang="en">Class</rdfs:label>
+        <rem:cname xml:lang="de">Klasse</rem:cname>
+        <rem:ename xml:lang="en">(Concept.Type)-1</rem:ename>
+        <rdfs:label xml:lang="de">Klasse</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/e2bbffd4-a352-4876-8d48-6d4b966f029b">
+        <rdfs:label xml:lang="de">Beteiligtes_Typ1</rdfs:label>
+        <rem:ename xml:lang="en">Participant.Type/1</rem:ename>
+        <rem:cname xml:lang="de">Beteiligtes.Typ/1</rem:cname>
+        <rem:cname xml:lang="en">Participant.Type/1</rem:cname>
+        <rdfs:label xml:lang="en">Participant_Type1</rdfs:label>
+        <rem:uuid>e2bbffd4-a352-4876-8d48-6d4b966f029b</rem:uuid>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/f290ec21-db93-4753-be31-51f947d7d822">
+        <rem:cname xml:lang="de">Agens</rem:cname>
+        <rem:cname xml:lang="en">Actor</rem:cname>
+        <rdfs:label xml:lang="de">Agens</rdfs:label>
+        <rem:ename xml:lang="en">(Participant.Type)-1</rem:ename>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+        <rem:uuid>f290ec21-db93-4753-be31-51f947d7d822</rem:uuid>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/fbf0c30f-f71a-4078-a896-497d1571a8f1">
+        <rem:ename xml:lang="en">(Percept.Type)-3</rem:ename>
+        <rem:uuid>fbf0c30f-f71a-4078-a896-497d1571a8f1</rem:uuid>
+        <rem:cname xml:lang="en">Context</rem:cname>
+        <rem:cname xml:lang="de">Kontext</rem:cname>
+        <rdfs:label xml:lang="de">Kontext</rdfs:label>
+        <rdfs:label xml:lang="en">Context</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/0b676c2a-9d76-4250-adb0-b569f4184e75">
+        <rdfs:label xml:lang="en">Entity_Type2</rdfs:label>
+        <rem:cname xml:lang="en">Entity.Type/1</rem:cname>
+        <rem:uuid>0b676c2a-9d76-4250-adb0-b569f4184e75</rem:uuid>
+        <rdfs:label xml:lang="de">Entitaet_Typ2</rdfs:label>
+        <rem:cname xml:lang="de">Entitaet.Typ/2</rem:cname>
+        <rem:ename xml:lang="en">Entity.Type/2</rem:ename>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/07034ae6-6c82-40b5-9d10-f3adceb810ae">
+        <rem:cname xml:lang="de">Klasse.Typ/1</rem:cname>
+        <rem:uuid>07034ae6-6c82-40b5-9d10-f3adceb810ae</rem:uuid>
+        <rem:ename xml:lang="en">Class.Type/1</rem:ename>
+        <rem:cname xml:lang="en">Class.Type/1</rem:cname>
+        <rdfs:label xml:lang="de">Klasse_Typ1</rdfs:label>
+        <rdfs:label xml:lang="en">Class_Type1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/26dca802-f7ec-4830-a917-2effe8702f69">
+        <rem:ename xml:lang="en">(Tuple.Type)-1</rem:ename>
+        <rem:cname xml:lang="de">GeordnetesPaar</rem:cname>
+        <rdfs:label xml:lang="en">OrderedPair</rdfs:label>
+        <rem:cname xml:lang="en">OrderedPair</rem:cname>
+        <rem:uuid>26dca802-f7ec-4830-a917-2effe8702f69</rem:uuid>
+        <rdfs:label xml:lang="de">GeordnetesPaar</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/4b5f335b-3848-44dc-b338-2192332c25aa">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <rem:uuid>4b5f335b-3848-44dc-b338-2192332c25aa</rem:uuid>
+        <rem:cname xml:lang="de">Ressource</rem:cname>
+        <rem:ename xml:lang="en">(Participant.Type)-2</rem:ename>
+        <rem:cname xml:lang="en">Resource</rem:cname>
+        <rdfs:label xml:lang="de">Ressource</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/47776a7e-c17f-43b0-b2a8-baa6b8e0e905">
+        <rdfs:label xml:lang="de">Konzept_Typ1</rdfs:label>
+        <rem:ename xml:lang="en">Concept.Type/1</rem:ename>
+        <rem:uuid>47776a7e-c17f-43b0-b2a8-baa6b8e0e905</rem:uuid>
+        <rem:cname xml:lang="en">Concept.Type/1</rem:cname>
+        <rdfs:label xml:lang="en">Concept_Type1</rdfs:label>
+        <rem:cname xml:lang="de">Konzept.Typ/1</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/551f64b3-bc46-4a96-9110-42f4858efc54">
+        <rem:uuid>551f64b3-bc46-4a96-9110-42f4858efc54</rem:uuid>
+        <rdfs:label xml:lang="de">Tupel</rdfs:label>
+        <rem:cname xml:lang="en">Tuple</rem:cname>
+        <rem:cname xml:lang="de">Tupel</rem:cname>
+        <rdfs:label xml:lang="en">Tuple</rdfs:label>
+        <rem:ename xml:lang="en">(Class.Type)-3</rem:ename>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/569db562-266b-48aa-8e5b-7760640d81d0">
+        <rem:ename xml:lang="en">(Attribute.Type)-1</rem:ename>
+        <rem:uuid>569db562-266b-48aa-8e5b-7760640d81d0</rem:uuid>
+        <rdfs:label xml:lang="de">Beteiligtes</rdfs:label>
+        <rem:cname xml:lang="en">Participant</rem:cname>
+        <rdfs:label xml:lang="en">Participant</rdfs:label>
+        <rem:cname xml:lang="de">Beteiligtes</rem:cname>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/61361119-985f-4844-9ad7-f9841d99b2a9">
+        <rem:cname xml:lang="en">Vivacity</rem:cname>
+        <rem:uuid>61361119-985f-4844-9ad7-f9841d99b2a9</rem:uuid>
+        <rem:cname xml:lang="de">Vivazitaet</rem:cname>
+        <rem:ename xml:lang="en">Percept.Type/1</rem:ename>
+        <rdfs:label xml:lang="en">Vivacity</rdfs:label>
+        <rdfs:label xml:lang="de">Vivazitaet</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/7f7799f9-3fe8-4d06-9d90-08d5715ec64f">
+        <rem:ename xml:lang="en">Percept.Type/2</rem:ename>
+        <rem:cname xml:lang="en">Percept.Type/2</rem:cname>
+        <rem:uuid>7f7799f9-3fe8-4d06-9d90-08d5715ec64f</rem:uuid>
+        <rem:cname xml:lang="de">Perzept.Typ/2</rem:cname>
+        <rdfs:label xml:lang="de">Perzept_Typ2</rdfs:label>
+        <rdfs:label xml:lang="en">Percept_Type2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/853a6fe5-b7b1-4830-96ee-69a1610b4be5">
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+        <rem:cname xml:lang="de">Konzept</rem:cname>
+        <rem:uuid>853a6fe5-b7b1-4830-96ee-69a1610b4be5</rem:uuid>
+        <rdfs:label xml:lang="de">Konzept</rdfs:label>
+        <rem:cname xml:lang="en">Concept</rem:cname>
+        <rem:ename xml:lang="en">(Entity-Type)-2</rem:ename>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/9d1fce3f-d6a8-4917-ae57-d347c0cf750c">
+        <rem:uuid>9d1fce3f-d6a8-4917-ae57-d347c0cf750c</rem:uuid>
+        <rem:cname xml:lang="en">Attribute</rem:cname>
+        <rdfs:label xml:lang="de">Attribut</rdfs:label>
+        <rem:ename xml:lang="en">(Entity.Type)-3</rem:ename>
+        <rem:cname xml:lang="de">Attribut</rem:cname>
+        <rdfs:label xml:lang="en">Attribute</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://rem.dra.cn.ard.de/969fb8fc-1ca1-458b-bbc7-390382193a06">
+        <rem:ename xml:lang="en">(Percept.Type)-2</rem:ename>
+        <rem:uuid>969fb8fc-1ca1-458b-bbc7-390382193a06</rem:uuid>
+        <rem:cname xml:lang="en">Being</rem:cname>
+        <rdfs:label xml:lang="en">Being</rdfs:label>
+        <rem:cname xml:lang="de">Wesen</rem:cname>
+        <rdfs:label xml:lang="de">Wesen</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
